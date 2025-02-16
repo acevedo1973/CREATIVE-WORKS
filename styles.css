@@ -52,3 +52,21 @@ footer {
     background: #222;
     font-size: 0.9em;
 }
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.video-item {
+    width: 560px;
+    margin-bottom: 20px;
+}
+
+.video-item p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
